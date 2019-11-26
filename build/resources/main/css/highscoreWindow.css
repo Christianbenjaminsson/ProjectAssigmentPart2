@@ -1,0 +1,52 @@
+#highscoreWindow {
+		-fx-spacing: 5;
+  	-fx-alignment: center;
+  	-fx-pref-height: 100px;
+  	-fx-pref-width: 250px;
+  	-fx-padding: 5px;
+  	-fx-background-color: white;
+}
+
+Label {
+	-fx-font: normal bold 16px 'arial';
+	-fx-text-fill: #2196F3;
+}
+
+.playerName {
+	-fx-translate-x: 58px;
+	-fx-alignment: center;
+	-fx-min-width: 125px;
+	-fx-max-width: 125px;
+}
+
+#firstPlace {
+	-fx-translate-y: 35px;
+}
+
+#secondPlace {
+	-fx-translate-y: 95px;
+}
+
+#thirdPlace {
+	-fx-translate-y: 155px;
+}
+
+.rectangle {
+	-fx-image: url("../images/rectangle.png");
+}
+
+#coolDoge {
+	-fx-image: url("../images/CoolDoge.jpg");
+	}
+
+#sadDoge {
+	-fx-image: url("../images/SadDoge.jpg");
+}
+
+#spinningDoge {
+  -fx-image: url("../images/dogespin.gif");
+}
+
+#backButton {
+	-fx-image: url("../images/backIcon.png");
+}

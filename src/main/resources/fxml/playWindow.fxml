@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.Group?>
+<VBox id="playWindow"
+      stylesheets="@/css/playWindow.css"
+      xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.dogedice.controllers.PlayWindow">
+
+  <Label id="header" text="Doge-Dice"/>
+  <Label id="gameTurns" fx:id="gameTurns"/>
+
+  <HBox styleClass="gameWindow">
+    <ScrollPane hbarPolicy="NEVER" vbarPolicy="ALWAYS" styleClass="scrollPane">
+      <VBox id="playerPaneBox" fx:id="playerPaneBox"/>
+    </ScrollPane>
+
+    <VBox id="diceBox" fx:id="diceBox">
+      <Label id="resultHeader" text="SCORE"/>
+      <Label id="resultLabel" fx:id="roll" />
+    </VBox>
+  </HBox>
+
+  <VBox>
+    <ImageView id="spinningDoge" fitWidth="40" preserveRatio="true" onMouseClicked="#spinningDogeClicked"/>
+    <VBox alignment="CENTER">
+    <Button fx:id="rollButton" id="rollButton" onMouseClicked="#rollButtonClicked" text="ROLL" />
+    </VBox>
+    <ImageView id="backButton" fitWidth="40" onMouseClicked="#backButtonClicked" preserveRatio="true" />
+  </VBox>
+</VBox>

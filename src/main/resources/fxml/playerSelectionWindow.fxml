@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox id="playerSelectionWindow"
+      stylesheets="@/css/playerSelectionWindow.css"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.dogedice.controllers.PlayerSelectionWindow">
+
+  <Label id="header"
+         text="Select much Doge?"/>
+
+  <VBox styleClass="spinnerBox">
+    <ImageView id="homanDoge"
+               fitWidth="45"
+               fitHeight="45" layoutY="50"/>
+
+    <Label styleClass="sublabel"
+           text="2leg Doge?"/>
+
+    <Spinner fx:id="humPlayersSpinner"
+             id="humPlayersSpinner"
+             editable="true"
+             initialValue="1"
+             min="1"
+             max="10"/>
+  </VBox>
+
+  <VBox styleClass="spinnerBox">
+    <ImageView id="roboDoge"
+               fitWidth="45"
+               fitHeight="45" layoutY="50"/>
+
+    <Label styleClass="sublabel"
+           text="Robo Doge?"/>
+
+    <Spinner fx:id="cpuPlayersSpinner"
+             id="cpuPlayersSpinner"
+             editable="true"
+             initialValue="0"
+             min="0"
+             max="10"/>
+  </VBox>
+
+  <HBox styleClass="spinnerBox" spacing="47">
+    <ImageView id="backButton"
+               preserveRatio="true"
+               fitWidth="40"
+               onMouseClicked="#backIconClicked"/>
+
+    <Button id="confirmButton"
+            layoutX="250"
+            text="Confirm"
+            onMouseClicked="#confirmButtonClicked"/>
+
+    <ImageView id="spinningDoge"
+               preserveRatio="true"
+               fitWidth="55"
+               onMouseClicked="#spinningDogeClicked"/>
+  </HBox>
+
+</VBox>
+
+
+

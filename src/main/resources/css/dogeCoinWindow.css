@@ -1,0 +1,23 @@
+#dogeCoinWindow {
+	-fx-background-color: white;
+}
+
+Label{
+	-fx-font: normal bold 16px 'arial';
+	-fx-text-fill: #2196F3;
+	-fx-background-color: white;
+}
+
+#diggingDoge{
+ -fx-image: url("../images/diggingdoge.gif");
+}
+
+#dogeDonate {
+ -fx-image: url("../images/dogedonate.gif");
+
+}
+
+#backButton {
+	-fx-image: url("../images/backIcon.png");
+	-fx-translate-x: -180;
+}

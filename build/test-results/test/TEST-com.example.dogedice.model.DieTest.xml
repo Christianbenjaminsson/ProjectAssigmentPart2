@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dogedice.model.DieTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-13T12:28:37" hostname="Christians-MacBook-Pro.local" time="0.014">
+  <properties/>
+  <testcase name="sixSidedDie()" classname="com.example.dogedice.model.DieTest" time="0.009"/>
+  <testcase name="twentySidedDie()" classname="com.example.dogedice.model.DieTest" time="0.001"/>
+  <testcase name="oneSidedDie()" classname="com.example.dogedice.model.DieTest" time="0.001"/>
+  <testcase name="twelveSidedDie()" classname="com.example.dogedice.model.DieTest" time="0.001"/>
+  <system-out><![CDATA[Testing with 6-sided die
+Testing with 20-sided die
+Testing with 1-sided die
+Testing with 12-sided die
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.dogedice.model.PlayerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-15T15:17:48" hostname="Christians-MacBook-Pro.local" time="0.029">
+  <properties/>
+  <testcase name="addModifiers()" classname="com.example.dogedice.model.PlayerTest" time="0.016"/>
+  <testcase name="rollDice()" classname="com.example.dogedice.model.PlayerTest" time="0.001"/>
+  <testcase name="isBot()" classname="com.example.dogedice.model.PlayerTest" time="0.002"/>
+  <testcase name="getPoints()" classname="com.example.dogedice.model.PlayerTest" time="0.001"/>
+  <testcase name="setName()" classname="com.example.dogedice.model.PlayerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.example.dogedice.model.DieTest - Creating human and cpu player.
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding a single die to each player.
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifiers +1, +2 .. +10 to each of the players while doing some checks.
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 1 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 1
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 1 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 1 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 2 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 3
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 2 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 4 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 3 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 6
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 3 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 10 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 4 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 10
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 4 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 20 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 5 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 15
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 5 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 35 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 6 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 21
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 6 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 56 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 7 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 28
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 7 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 84 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 8 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 36
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 8 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 120 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 9 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 45
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 9 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 165 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Adding modifier with value 10 to human and cpu
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the modifier sums are 55
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that the players have 10 modifiers each
+[Test worker] INFO com.example.dogedice.model.DieTest - Asserting that both players now have 220 points
+[Test worker] INFO com.example.dogedice.model.DieTest - Creating a human player and a cpu player
+[Test worker] INFO com.example.dogedice.model.DieTest - Testing that dice are added properly.
+[Test worker] INFO com.example.dogedice.model.DieTest - Testing that HumanPlayer isn't a bot and that CpuPlayer is a bot.
+[Test worker] INFO com.example.dogedice.model.DieTest - Testing that points are added and summed up correctly.
+[Test worker] INFO com.example.dogedice.model.DieTest - Creating 100 human players and 100 CPU players with random names.
+]]></system-err>
+</testsuite>

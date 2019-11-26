@@ -1,0 +1,150 @@
+#playWindow {
+	-fx-min-width:        500px;
+	-fx-max-width:        500px;
+	-fx-min-height:       540px;
+	-fx-max-height:       600px;
+	-fx-background-color: white;
+	-fx-alignment:        top-center;
+}
+
+#header {
+	-fx-font:      bold 30px "Arial";
+	-fx-text-fill: #2196F3;
+}
+
+.gameWindow{
+	-fx-scale-x:   .8;
+	-fx-scale-y:   .8;
+	-fx-padding:   -35 -40 0 10;
+	-fx-font-size: 16px;
+}
+
+.scrollPane{
+	-fx-translate-x:      -30;
+	-fx-translate-y:      0;
+	-fx-border-color:     black;
+	-fx-min-height:       425;
+	-fx-max-height:       425;
+	-fx-min-width:        500;
+	-fx-max-width:        500;
+	-fx-background-color: transparent;
+}
+
+#diceBox {
+	-fx-min-height:   300;
+	-fx-max-height:   300;
+	-fx-min-width:    100;
+	-fx-max-width:    100;
+	-fx-spacing:      15;
+	-fx-translate-x:  -20;
+	-fx-translate-y:  0;
+}
+
+#bot {
+	-fx-translate-y: -80;
+	-fx-translate-x: 100;
+}
+
+Button {
+	-fx-color:             #FFCB7A;
+	-fx-shape:             "M 350 300 L 500 300 L 500 200 L 350 200 L 350 300";
+	-fx-background-radius: 5em;
+	-fx-font:              bold 20px 'serif';
+	-fx-focus-color:       transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-translate-y:       30;
+	-fx-scale-x:           2;
+	-fx-scale-y:           2;
+}
+
+Button:hover {
+	-fx-color: #2196F3;
+}
+
+Button:focused {
+	-fx-background-insets: 0, 0, 1, 2;
+}
+
+Button:pressed {
+	-fx-color: #FFCB7A;
+}
+
+#playerPaneBox{
+	-fx-padding: 15, 15, 30, 15;
+}
+
+.playerInfo {
+	-fx-font: bold 16pt "Arial";
+}
+
+.spinningDoge {
+	-fx-image:       url("../images/dogespin.gif");
+	-fx-translate-x: -100;
+	-fx-translate-y: -100;
+	-fx-scale-x:      20;
+	-fx-scale-y:      20;
+}
+
+#backButton {
+	-fx-image:       url("../images/backIcon.png");
+	-fx-translate-y: 15;
+	-fx-translate-x: -3;
+}
+
+#resultHeader {
+	-fx-font:        bold 18px "Arial";
+	-fx-text-fill:   #2196F3;
+	-fx-translate-y: 335;
+	-fx-translate-x: 15;
+	-fx-alignment:   center;
+}
+
+#resultLabel {
+	-fx-min-width:      70px;
+	-fx-min-height:     62px;
+	-fx-max-width:      70px;
+	-fx-max-height:     62px;
+	-fx-font:           bold 18px "Arial";
+	-fx-text-fill:      red;
+	-fx-border-style:   dashed;
+	-fx-translate-y:    325;
+	-fx-translate-x:    15;
+	-fx-alignment:      center;
+}
+
+#gameTurns {
+	-fx-font:        bold 12px arial;
+	-fx-text-fill:   #2196F3;
+}
+
+.itemVBox {
+	-fx-spacing:     10;
+}
+
+.modifierLabels {
+	-fx-font:        bold 15px arial;
+	-fx-text-fill:   #2196F3;
+}
+
+#plusOneLabel {
+	-fx-text-fill:   white;
+	-fx-font-size:   28px;
+	-fx-translate-y: -58px;
+}
+
+#smallPlusOneLabel {
+	-fx-text-fill:   white;
+	-fx-font:        bold 15px arial;
+}
+
+#smallModifierBox {
+	-fx-alignment:    center;
+	-fx-max-width:    35px;
+	-fx-max-height:   35px;
+}
+
+.itemVBoxes {
+	-fx-alignment:   center;
+	-fx-translate-y: -110px;
+	-fx-spacing:     10px;
+}

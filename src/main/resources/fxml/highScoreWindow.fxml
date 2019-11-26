@@ -1,0 +1,45 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<BorderPane id="highscoreWindow"
+            stylesheets="@/css/highscoreWindow.css"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.dogedice.controllers.HighScoreWindow">
+  <top>
+    <Group>
+      <ImageView layoutX="205" fitHeight="170" fitWidth="250">
+        <Image url="@/images/Highscore.png"/>
+      </ImageView>
+      <Label text="Wow Such Score" layoutX="260" layoutY="140"/>
+      <ImageView id ="coolDoge" layoutY="95" layoutX="385" preserveRatio="true" fitWidth="60"/>
+    </Group>
+  </top>
+
+  <center>
+    <Group>
+
+      <ImageView id="topDogeRectangle" styleClass="rectangle" fitHeight="100" fitWidth="250"/>
+      <ImageView id="lastTopDogeRectangle" styleClass="rectangle" layoutY="62" fitHeight="100" fitWidth="250"/>
+      <ImageView id="muchSadDogeRectangle" styleClass="rectangle" layoutY="123" fitHeight="100" fitWidth="250"/>
+
+      <Label text="1. TopDoge" layoutX="70"/>
+      <Label fx:id="firstPlace" id="firstPlace" styleClass="playerName" alignment="CENTER"/>
+
+      <Label text="2. Last TopDoge"  layoutY="60" layoutX="55" />
+      <Label fx:id="secondPlace" id="secondPlace" styleClass="playerName" alignment="CENTER"/>
+
+      <Label text="3. Much SadDoge" layoutY="122" layoutX="55"/>
+      <Label fx:id="thirdPlace" id="thirdPlace" styleClass="playerName"/>
+
+      <ImageView id="spinningDoge" layoutY="175" layoutX="185" preserveRatio="true" fitWidth="65" onMouseClicked="#spinningDogeClicked"/>
+      <ImageView id="sadDoge" layoutY="130" layoutX="8" preserveRatio="true" fitWidth="50" rotate="340"/>
+      <ImageView id="backButton" layoutY="185" preserveRatio="true" fitWidth="40" onMouseClicked="#backIconClicked"/>
+
+    </Group>
+  </center>
+
+</BorderPane>

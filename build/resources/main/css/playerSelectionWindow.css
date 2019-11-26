@@ -1,0 +1,60 @@
+#playerSelectionWindow {
+	-fx-spacing: 20;
+	-fx-alignment: center;
+	-fx-pref-height: 100px;
+	-fx-pref-width: 300px;
+	padding: 5px;
+	-fx-background-color: white;
+}
+
+#header {
+	-fx-font: normal bold 30px 'Arial';
+	-fx-text-fill: #2196F3;
+}
+
+.spinnerBox {
+  -fx-alignment: center;
+}
+
+.sublabel {
+	-fx-font: normal bold 16px 'Arial';
+	-fx-text-fill: #2196F3;
+}
+
+Button {
+	-fx-color: #FFCB7A;
+	-fx-shape: "M 350 300 L 500 300 L 500 200 L 350 200 L 350 300";
+	-fx-background-radius: 5em;
+	-fx-font: normal bold 20px 'serif';
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+}
+
+Button:hover {
+	-fx-color: #2196F3;
+}
+
+Button:focused {
+	-fx-background-insets: 0, 0, 1, 2;
+	-fx-border-color: transparent;
+}
+
+Button:pressed {
+	-fx-color: #FFCB7A;
+}
+
+#spinningDoge {
+  -fx-image: url("../images/dogespin.gif");
+}
+
+#backButton {
+ 	-fx-image: url("../images/backIcon.png");
+ }
+
+#roboDoge {
+ 	-fx-image: url("../images/roboDoge.png");
+}
+
+#homanDoge {
+ 	-fx-image: url("../images/homanDoge.png");
+}

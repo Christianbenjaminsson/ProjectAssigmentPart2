@@ -1,0 +1,48 @@
+#namePlayersWindow {
+  -fx-min-width: 300px;
+  -fx-min-height: 400px;
+  -fx-background-color: white;
+}
+
+#header {
+	-fx-font: normal bold 25px 'arial';
+	-fx-text-fill: #2196F3;
+	-fx-padding: 10px;
+}
+
+ScrollPane {
+	-fx-min-height: 310px;
+	-fx-max-height: 310px;
+	-fx-padding: 10px;
+}
+
+Button {
+	-fx-color: #FFCB7A;
+	-fx-shape: "M 350 300 L 500 300 L 500 200 L 350 200 L 350 300";
+	-fx-background-radius: 5em;
+	-fx-font: normal bold 20px 'serif';
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-translate-y: 3;
+	-fx-translate-x: 7;
+}
+
+Button:pressed {
+	-fx-color: #FFCB7A;
+}
+
+Button:hover {
+	-fx-color: #2196F3;
+}
+
+#spinningDoge {
+  -fx-image: url("../images/dogespin.gif");
+}
+
+#backButton {
+ 	-fx-image: url("../images/backIcon.png");
+}
+
+#coolDoge {
+  	-fx-image: url("../images/CoolDoge.jpg");
+}

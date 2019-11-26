@@ -1,0 +1,35 @@
+#mainWindow {
+	-fx-background-color: white;
+}
+
+Button {
+	-fx-color: #FFCB7A;
+	-fx-shape: "M 350 300 L 500 300 L 500 200 L 350 200 L 350 300";
+	-fx-background-radius: 5em;
+	-fx-font: normal bold 20px 'serif';
+}
+
+Button:hover {
+	-fx-color: #2196F3;
+}
+
+Button:focused {
+	-fx-background-insets: 0, 0, 1, 2;
+}
+
+Button:pressed {
+	-fx-color: #FFCB7A;
+}
+
+.spinningDoge {
+  -fx-image: url("../images/dogespin.gif");
+}
+
+#dogecoinButton {
+  -fx-image: url("../images/dogecoin.png");
+}
+
+#helpButton {
+  -fx-image: url("../images/help.png");
+}
+

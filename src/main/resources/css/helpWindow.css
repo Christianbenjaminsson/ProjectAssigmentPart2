@@ -1,0 +1,43 @@
+#helpWindow {
+	-fx-spacing: 5;
+	-fx-alignment: center;
+	-fx-pref-height: 350px;
+	-fx-pref-width: 340px;
+	-fx-padding: 5px;
+	-fx-background-color: white;
+}
+
+#header {
+	-fx-font: normal bold 20px 'arial';
+	-fx-text-fill: #2196F3;
+	-fx-padding: 10 0 5 10;
+	-fx-spacing: 25;
+	-fx-alignment: center;
+}
+
+#text {
+	-fx-padding: 0 10 10 10;
+	-fx-font: normal bold 16px 'arial';
+  -fx-text-fill: #2196F3;
+  -fx-alignment: center;
+  -fx-min-height: 280px;
+}
+
+.center {
+ -fx-alignment: center;
+ -fx-padding: 5;
+ -fx-spacing: 250;
+ }
+
+#backButton {
+	-fx-image: url("../images/backIcon.png");
+}
+
+#littleDoge {
+	-fx-image: url("../images/littleDoge.png");
+}
+
+#spinningDoge {
+  -fx-image: url("../images/dogespin.gif");
+}
+

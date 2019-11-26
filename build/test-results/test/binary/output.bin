@@ -1,0 +1,9 @@
+Testing with 6-sided die
+Testing with 20-sided die
+Testing with 1-sided die
+Testing with 12-sided die
+,Testing that modifiers are added correctly.
+&Testing that dice are added properly.
+BTesting that HumanPlayer isn't a bot and that CpuPlayer is a bot.
+7Testing that points are added and summed up correctly.
+2Testing creating a few players with random names.

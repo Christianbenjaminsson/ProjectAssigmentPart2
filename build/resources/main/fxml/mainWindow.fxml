@@ -1,0 +1,60 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<BorderPane id="mainWindow"
+            styleClass="mainWindow"
+            stylesheets="@/css/mainWindow.css"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.dogedice.controllers.MainWindow">
+  <top>
+    <ImageView>
+      <Image url="@/images/dogelogo.png"/>
+    </ImageView>
+  </top>
+
+  <bottom>
+    <Group>
+      <ImageView id="helpButton"
+                 onMouseClicked="#helpButtonClicked"/>
+      <ImageView id="dogecoinButton"
+                 layoutX="340"
+                 preserveRatio="true"
+                 fitWidth="25"
+                 onMouseClicked="#dogecoinButtonClicked"/>
+    </Group>
+  </bottom>
+
+  <center>
+    <Group>
+      <Button id="startButton"
+              text="START"
+              focusTraversable="false"
+              onMouseClicked="#startButtonClicked"/>
+      <Button id="highscoreButton"
+              text="HIGHSCORE"
+              focusTraversable="false"
+              layoutX="100"
+              onMouseClicked="#highscoreButtonClicked"/>
+    </Group>
+  </center>
+
+  <left>
+    <ImageView styleClass="spinningDoge"
+               id="spinningDoge1"
+               preserveRatio="true"
+               fitWidth="45"
+               onMouseClicked="#spinningDogeClicked"/>
+  </left>
+
+  <right>
+    <ImageView styleClass="spinningDoge"
+               id="spinningDoge2"
+               preserveRatio="true"
+               fitWidth="45"
+               onMouseClicked="#spinningDogeClicked"/>
+  </right>
+</BorderPane>

@@ -1,0 +1,26 @@
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox id="helpWindow"
+      stylesheets="@/css/helpWindow.css"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.dogedice.controllers.HelpWindow">
+
+  <HBox spacing="5">
+    <ImageView id="littleDoge" preserveRatio="true" fitWidth="40"/>
+  <Label id="header" text="Much Nub? Doge so help"/>
+    <ImageView id="littleDoge" preserveRatio="true" fitWidth="40"/>
+
+  </HBox>
+
+  <Label fx:id="text" id="text" wrapText="true"/>
+
+  <HBox styleClass="center">
+    <ImageView id="backButton" layoutY="185" preserveRatio="true" fitWidth="40" onMouseClicked="#backIconClicked"/>
+    <ImageView id="spinningDoge" preserveRatio="true" fitWidth="50" onMouseClicked="#spinningDogeClicked"/>
+  </HBox>
+</VBox>
+
+

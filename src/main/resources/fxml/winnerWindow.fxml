@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Label?>
+
+<VBox id="winnerWindow"
+
+      stylesheets="@/css/winnerWindow.css"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.dogedice.controllers.WinnerWindow">
+
+  <Label id="header"
+         text="Winner"/>
+
+  <HBox styleClass="center" >
+   <ImageView id="firework"
+              preserveRatio="true"
+              fitWidth="85"/>
+
+   <ImageView id="dabDogeLeft"
+              fitHeight="50"
+              fitWidth="50"/>
+
+      <Label styleClass="subLabel" fx:id="winnerLabel" text="placeHolder" minWidth="150"/>
+
+   <ImageView id="dabDogeRight"
+              fitHeight="50"
+              fitWidth="50"/>
+
+   <ImageView id="firework"
+              preserveRatio="true"
+              fitWidth="85"/>
+  </HBox>
+
+  <VBox styleClass="playAgainButton" spacing="5">
+  <ImageView id="fullDoge"
+             fitHeight="300"
+             fitWidth="300"/>
+
+  </VBox>
+
+  <HBox styleClass="playAgainButton" spacing="5" >
+    <Button id="Button"
+            text="Play Again?"
+            onMouseClicked="#replayButtonClicked"/>
+
+    <Button id="Button"
+            text="Main Menu"
+            onMouseClicked="#menuButtonClicked"/>
+
+  </HBox>
+
+  <HBox styleClass="subButton">
+    <ImageView id="spinningDoge"
+               preserveRatio="true"
+               fitWidth="55"
+               onMouseClicked="#spinningDogeClicked"/>
+
+    <Button id="Button"
+            text="Highscore"
+            onMouseClicked="#highscoreButtonClicked"/>
+
+    <ImageView id="spinningDoge"
+               preserveRatio="true"
+               fitWidth="55"
+               onMouseClicked="#spinningDogeClicked"/>
+  </HBox>
+
+</VBox>
